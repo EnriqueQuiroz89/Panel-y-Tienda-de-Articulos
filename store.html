@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion Tienda</title>
+    <link rel="stylesheet" href="styles-store.css">
+
+    <!--FIRESTORE-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+    <div class="link-panel">
+        <a href="index.html">Visita tu panel</a>
+    </div>
+
+    <h2>Mi Catalogo</h2>
+    <div class="container-articulos" id="container-articulos">
+        <div class="articulo">
+            <div class="imagen-articulo"><img
+                    src="https://http2.mlstatic.com/D_NQ_NP_608240-CBT44568441485_012021-O.webp" alt="" id="imagen">
+            </div>
+            <div class="nombre-articulo" id="articulo"> Hola Nombre Hola Nombre Hola Nombre Hola Nombre Hola Nombre Hola
+                Nombre </div>
+            <div class="descripcion-articulo" id="descripcion">Descripcion</div>
+            <div class="precio-articulo" id="precio">Precio</div>
+        </div>
+    </div>
+
+    <script src="app-store.js"></script>
+</body>
+
+</html>
